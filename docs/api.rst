@@ -9,3 +9,4 @@ Python files in ``src/``.
 
    client
    client_base
+   improved_doc_example

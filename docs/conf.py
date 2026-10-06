@@ -11,6 +11,7 @@ author = "IdentityPython"
 extensions = [
     "sphinx.ext.autodoc",    # pulls docstrings out of the code
     "sphinx.ext.viewcode",   # adds [source] links next to each documented item
+    "sphinx.ext.napoleon",   # understands Google-style docstrings (Args:, Returns:, ...)
 ]
 
 # 2) client.py imports the pysaml2 package ("saml2"). Instead of installing pysaml2
